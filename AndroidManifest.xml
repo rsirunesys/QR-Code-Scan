@@ -78,12 +78,15 @@
     <category android:name="android.intent.category.DEFAULT"/>
   </intent-filter>
 </activity>
+
+<!-- 
 <activity android:name="com.google.zxing.client.android.HelpActivity" android:label="jeff/jeff">
     <intent-filter>
             <action android:name="android.intent.action.VIEW"/>
         <category android:name="android.intent.category.DEFAULT"/>
     </intent-filter>
 </activity>
+ -->
     </application>
 
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="17"/>
