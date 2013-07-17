@@ -31,8 +31,10 @@
 			<script type="text/javascript">
 			var scanAndGo = function() {
 				try {
+					
+				var scanner = cordova.require("cordova/plugin/BarcodeScanner");	
 				
-				window.plugins.barcodeScanner.scan( function(result) {
+				scanner.scan( function(result) {
         			alert("We got a barcode\n" +
         			"Result: " + result.text + "\n" +
                   	"Format: " + result.format + "\n" +
