@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.camera.pgbtest" version="1.0.0">
     <name>
-        Camera Test 1
+        QR Code Scan
     </name>
         <description>
-        An example of Phonegap Build Camera. 
+        Scanning a QR Code 
     </description>
 
     <author href="https://sub.example.com" email="someone@email.com">
