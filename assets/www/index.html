@@ -25,14 +25,14 @@
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         
     <title>Hello World </title>
-		  <script type="text/javascript" src="cordova.js"></script>
+		  <script type="text/javascript" src="cordova-1.7.0.js"></script>
 			<script type="text/javascript" src="barcodescanner.js"></script>
 			<script type="text/javascript" src="js/index.js"></script>
 			<script type="text/javascript">
 			var scanAndGo = function() {
 				try {
 				
-				window.cordovaplugins.barcodeScanner.scan( function(result) {
+				window.plugins.barcodeScanner.scan( function(result) {
         			alert("We got a barcode\n" +
         			"Result: " + result.text + "\n" +
                   	"Format: " + result.format + "\n" +
